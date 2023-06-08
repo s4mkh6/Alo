@@ -1,0 +1,22 @@
+	{
+	"Print to console": {
+		"scope": "javascript,typescript",
+		"prefix": "import-style",
+		"body": [
+			"import styles from './Body.module.scss'",
+"import classnames from 'classnames/bind'",
+"let cx = classnames.bind(styles)"
+		],
+		"description": "Log output to console"
+	},
+	"Print to console": {
+		"scope": "javascript,typescript",
+		"prefix": "c",
+		"body": [
+			"className={cx('')}",
+		]
+		}
+}
+
+
+
